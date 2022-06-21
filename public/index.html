@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="importmap">
+        {
+            "imports":{
+                "three": "./bulid/three.module.js",
+                "three/examples/loaders/GLTFLoader":"./jsm/loaders/GLTFLoader.js",
+                "three/examples/controls/OrbitControls":"./jsm/controls/OrbitControls.js"
+
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="design">
+            <img src="https://vark.fbrk.in/assets/images/fabrik_full_logo.png">
+        </div>
+
+        <div class="main-content">
+
+            <h1>View <span class="dream">3D</span><i> Models</i> here</h1>
+            <p>A complete Application where you can render 3d Models in no time.The Key skills used to bulid this project are for Back-end node and express and for Front-end html, css, three.js </p>
+            <a href="#" >Let's Bulid</a>
+        </div>
+        <div class="canvas-element">
+            <canvas class="web-gl"></canvas>
+
+        </div>
+    </div>
+
+    <script type="module" src="./client.js"></script>
+</body>
+</html>
