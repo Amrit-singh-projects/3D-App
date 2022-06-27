@@ -10,4 +10,4 @@
 
 6. And finally open your Terminal or Command Prompt on root directroy and type: npm start
 
-7. open browser and type localhost:3000
+7. open browser and type localhost:4000
